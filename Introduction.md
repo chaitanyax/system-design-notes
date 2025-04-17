@@ -237,3 +237,65 @@ If the service goes down during a global event (e.g., Met Gala), millions of use
 | Reliability  | System behaves predictably and accurately  | Uploads never
 ---
 
+### 🔹 Low Latency
+> Definition: Latency is the time it takes for a system to respond to a request.
+
+> Low latency means the system responds quickly, ideally within milliseconds.
+
+#### 🧠 Why It Matters:
+- Users expect instant results. Even a 1-second delay feels slow.
+- Low latency improves user experience, retention, and engagement.
+
+#### 📱 Instagram Example:
+- When you tap on a story, it loads instantly — that’s low latency.
+- If it takes 3–4 seconds, users drop off or get frustrated.
+
+#### 🛠️ How to Achieve Low Latency:
+- Use Content Delivery Networks (CDNs) to serve images/videos from locations close to the user.
+- Optimize backend queries and use indexes properly.
+- Add caching layers (e.g., Redis, Memcached) for frequently accessed data.
+- Design systems to be stateless, allowing faster routing and processing.
+
+#### ⚖️ Trade-offs:
+- Caching can lead to stale data
+- Optimization may increase infrastructure cost
+
+##### 📌 Goal: Keep user-facing latency under 100–200ms for most interactions.
+
+---
+
+### 🔹 Daily Active Users (DAU)
+> Definition: The number of unique users who use your product in a single day.
+
+#### 🧠 Why It Matters:
+- DAU measures daily engagement.
+- High DAU means users find value and come back often.
+- It’s a key health metric for consumer apps.
+
+#### 📱 Instagram Example:
+- If 500 million people opened Instagram today and interacted with it, that’s your DAU.
+
+#### 🛠️ How It's Used in Design:
+- Helps decide how much backend load to expect on a normal day.
+- Drives rate limiting, resource allocation, and system tuning.
+
+##### 📌 Companies often compare DAU to MAU to calculate stickiness:
+`Stickiness = (DAU / MAU) × 100%`
+
+---
+
+### 🔹 Monthly Active Users (MAU)
+> Definition: The number of unique users who use your product in a 30-day window.
+
+#### 🧠 Why It Matters:
+- MAU shows reach: how many people are aware of and occasionally using your product.
+- Good for tracking growth over time.
+
+#### 📱 Instagram Example:
+- If 1.5 billion users opened the app at least once in a month, that’s the MAU.
+
+#### 🛠️ How It's Used in Design:
+- Helps with capacity planning: storage, user history, notifications, etc.
+- MAU drives business metrics (like ad revenue, user base growth).
+
+---
