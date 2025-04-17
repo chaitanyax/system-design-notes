@@ -11,8 +11,8 @@ It’s not just about drawing diagrams—it's about making smart decisions in th
 > These define what the system should do — the features, behaviors, and business logic of the system.
 
 #### They answer:
-✅ What should the system do when a user interacts with it?
-✅ What actions should be supported?
+- ✅ What should the system do when a user interacts with it?
+- ✅ What actions should be supported?
 
 #### Examples:
 - A user should be able to sign up and log in.
@@ -27,8 +27,8 @@ It’s not just about drawing diagrams—it's about making smart decisions in th
 > These define how the system should perform, rather than what it does. They're about quality attributes and constraints.
 
 #### They answer:
-✅ How fast should it be?
-✅ How secure, scalable, or reliable should it be?
+- ✅ How fast should it be?
+- ✅ How secure, scalable, or reliable should it be?
 
 #### Examples:
 - The system should respond to user actions within 200ms.
@@ -46,27 +46,27 @@ Think of building a car:
 
 ### 📱 Instagram – Functional vs Non-Functional Requirements
 #### 🔹 Functional Requirements (What it should do)
-✅ Users can create an account and log in.
-✅ Users can upload and delete photos and videos.
-✅ Users can like, comment, and share posts.
-✅ Users can follow and unfollow other users.
-✅ Stories disappear after 24 hours.
-✅ Users can send direct messages to other users.
-✅ Users get notifications when someone likes or comments on their post.
+- ✅ Users can create an account and log in.
+- ✅ Users can upload and delete photos and videos.
+- ✅ Users can like, comment, and share posts.
+- ✅ Users can follow and unfollow other users.
+- ✅ Stories disappear after 24 hours.
+- ✅ Users can send direct messages to other users.
+- ✅ Users get notifications when someone likes or comments on their post.
 
 > 📌 These are features that define how Instagram behaves and what it allows users to do.
 
 ---
 
 ### 🔹 Non-Functional Requirements (How it should perform)
-⚡ Photos and videos should load within 1 second on a 4G connection.
-📈 The system should handle 1 million concurrent users without degradation.
-🕒 Posts and stories must be available 99.99% of the time (high availability).
-🔐 All user data must be encrypted and follow GDPR compliance.
-🌍 Content Delivery Network (CDN) should be used for fast media delivery worldwide.
-🧱 The system should scale horizontally to handle spikes (e.g., during celebrity livestreams).
-🛠️ The system should log all errors and have real-time monitoring for failures.
-📌 These ensure performance, security, scalability, and user experience—even if users never see them directly.
+- ⚡ Photos and videos should load within 1 second on a 4G connection.
+- 📈 The system should handle 1 million concurrent users without degradation.
+- 🕒 Posts and stories must be available 99.99% of the time (high availability).
+- 🔐 All user data must be encrypted and follow GDPR compliance.
+- 🌍 Content Delivery Network (CDN) should be used for fast media delivery worldwide.
+- 🧱 The system should scale horizontally to handle spikes (e.g., during celebrity livestreams).
+- 🛠️ The system should log all errors and have real-time monitoring for failures.
+- 📌 These ensure performance, security, scalability, and user experience—even if users never see them directly.
 
 #### Pro Tip for Readers:
 > Functional requirements define what users expect.
