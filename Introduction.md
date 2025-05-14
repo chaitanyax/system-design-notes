@@ -299,3 +299,129 @@ If the service goes down during a global event (e.g., Met Gala), millions of use
 - MAU drives business metrics (like ad revenue, user base growth).
 
 ---
+# 🌐 How the Internet Works - Deep Dive for System Design Interviews
+
+This document is a complete guide to understanding how the internet works, including protocols and internals. Ideal for system design interviews.
+
+---
+
+## 📌 Table of Contents
+
+1. [What Happens When You Type a URL](#1-what-happens-when-you-type-a-url)
+2. [TCP/IP Stack and OSI Model](#2-tcpip-stack-and-osi-model)
+3. [Protocol Internals](#3-protocol-internals)
+    - [IP](#ip-internet-protocol)
+    - [TCP](#tcp-transmission-control-protocol)
+    - [UDP](#udp-user-datagram-protocol)
+    - [TLS](#tls-transport-layer-security)
+    - [HTTP Versions](#http-versions)
+4. [DNS - Domain Name System](#4-dns---domain-name-system)
+5. [Resources & References](#5-resources--references)
+
+---
+
+## 1. What Happens When You Type a URL
+
+Typing `https://example.com` in the browser triggers these steps:
+
+### 🔹 DNS Resolution
+- Resolves domain to IP address.
+- Queries may include:
+  - Browser cache
+  - OS cache
+  - Recursive resolver (ISP or Google DNS)
+  - Root → TLD → Authoritative name servers
+
+**Protocol:** `DNS` over `UDP` (port 53), fallback to `TCP`.
+
+### 🔹 TCP Connection
+- **3-Way Handshake:**
+  1. SYN → 
+  2. SYN-ACK ←
+  3. ACK →
+
+**Protocol:** `TCP` (Transmission Control Protocol)
+
+### 🔹 TLS Handshake (if HTTPS)
+- Ensures secure encrypted connection.
+- Uses asymmetric crypto to exchange symmetric session key.
+
+**Protocol:** `TLS` (runs over TCP)
+
+### 🔹 HTTP Request/Response
+- Browser sends HTTP request to server:
+- Server returns HTML, JS, images, etc.
+
+**Protocol:** `HTTP` or `HTTPS`
+
+---
+
+## 2. TCP/IP Stack and OSI Model
+
+### 📦 TCP/IP Stack (Real-World Internet Model)
+
+| Layer           | Protocols                            | Description |
+|------------------|----------------------------------------|-------------|
+| Application      | HTTP, DNS, FTP, SMTP, TLS              | End-user communication |
+| Transport        | TCP, UDP                               | Reliable/unreliable delivery |
+| Network          | IP (IPv4/IPv6), ICMP                   | Routing, addressing |
+| Data Link        | Ethernet, ARP, Wi-Fi                   | Local delivery |
+| Physical         | Fiber optics, copper, radio waves      | Transmission medium |
+
+---
+
+## 3. Protocol Internals
+
+### IP (Internet Protocol)
+- Stateless, unreliable
+- Handles packet addressing and routing
+- Includes TTL, source/destination IP
+
+### TCP (Transmission Control Protocol)
+- Reliable, ordered, connection-oriented
+- Features:
+- 3-Way Handshake
+- Sequence numbers
+- Acknowledgments
+- Retransmission on loss
+- Congestion control
+- Flow control (sliding window)
+
+### UDP (User Datagram Protocol)
+- Connectionless, faster, unreliable
+- Used in DNS, VoIP, streaming
+
+### TLS (Transport Layer Security)
+- Secures communication over insecure networks
+- Uses:
+- Asymmetric encryption (RSA, DH)
+- Certificate exchange (X.509)
+- Session key negotiation
+- Used in HTTPS
+
+### HTTP Versions
+| Version   | Key Features                              |
+|-----------|--------------------------------------------|
+| HTTP/1.1  | Text-based, one request/connection (keep-alive) |
+| HTTP/2    | Binary protocol, multiplexed streams        |
+| HTTP/3    | Uses QUIC (over UDP), faster, secure by default |
+
+---
+
+## 4. DNS - Domain Name System
+
+- Maps domain names to IP addresses
+- Uses **recursive and authoritative** name servers
+- Key components:
+- Root servers
+- TLD servers (.com, .net)
+- Authoritative servers
+
+**Protocol:** DNS over UDP (default), TCP fallback for large responses
+
+---
+
+## 5. Resources & References
+
+### 📚 Books
+- [Computer Networking: A Top-Down Approach]()
