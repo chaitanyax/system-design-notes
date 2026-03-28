@@ -3,6 +3,7 @@ Introduction.md
 how-internet-works.md
 system-architecture.md
 architectural-patterns.md
+event-driven-architecture.md
 basic-tools-required.md
 session-vs-jwt-authentication.md
 reverse-proxy-load-balancer-api-gateway.md

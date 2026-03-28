@@ -24,21 +24,24 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **4. [Architectural Patterns](manuscript/architectural-patterns.md)** .................................................. *34*
    *Layered, Event-Driven, Microkernel, and Modular Monoliths*
 
-**5. [Modern System Infrastructure Tools](manuscript/basic-tools-required.md)** .................................. *45*
+**5. [Event-Driven Architecture Deep Dive](manuscript/event-driven-architecture.md)** .................... *42*
+   *Producers, Consumers, Brokers, Pub/Sub, and CQRS*
+
+**6. [Modern System Infrastructure Tools](manuscript/basic-tools-required.md)** .................................. *53*
    *Gateways, Container Orchestration, In-Memory Caches, and Event Streams*
 
 ### Part 2: Core Infrastructure & Deep Dives
-**6. [Web Authentication Deep Dive](manuscript/session-vs-jwt-authentication.md)** ..................................... *62*
+**7. [Web Authentication Deep Dive](manuscript/session-vs-jwt-authentication.md)** ..................................... *65*
    *Session-based Auth, JWTs, and Distributed Token Management*
 
-**7. [Reverse Proxy, Load Balancer, and API Gateway](manuscript/reverse-proxy-load-balancer-api-gateway.md)** ............ *78*
+**8. [Reverse Proxy, Load Balancer, and API Gateway](manuscript/reverse-proxy-load-balancer-api-gateway.md)** ............ *80*
    *Forward vs Reverse Proxies, SSL Termination, & Gateway Patterns*
 
 ### Part 3: System Design Case Studies
-**8. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *91*
+**9. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *95*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**9. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *108*
+**10. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *112*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---
