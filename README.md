@@ -37,11 +37,14 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **8. [Reverse Proxy, Load Balancer, and API Gateway](manuscript/reverse-proxy-load-balancer-api-gateway.md)** ............ *80*
    *Forward vs Reverse Proxies, SSL Termination, & Gateway Patterns*
 
+**9. [Load Balancing Algorithms & Tools](manuscript/load-balancing.md)** .................................................. *88*
+   *Round Robin, Consistent Hashing, Nginx, HAProxy, Envoy*
+
 ### Part 3: System Design Case Studies
-**9. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *95*
+**10. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *95*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**10. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *112*
+**11. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *112*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---
