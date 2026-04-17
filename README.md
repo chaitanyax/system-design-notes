@@ -40,11 +40,14 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **9. [Load Balancing Algorithms & Tools](manuscript/load-balancing.md)** .................................................. *88*
    *Round Robin, Consistent Hashing, Nginx, HAProxy, Envoy*
 
+**10. [SSL/TLS Certificates in Distributed Systems](manuscript/ssl-tls-certificates.md)** ................................. *97*
+   *Handshake Process, PKI, Cipher Suites, and SSL Termination*
+
 ### Part 3: System Design Case Studies
-**10. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *95*
+**11. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *108*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**11. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *112*
+**12. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *125*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---
