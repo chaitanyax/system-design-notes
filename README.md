@@ -43,11 +43,14 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **10. [SSL/TLS Certificates in Distributed Systems](manuscript/ssl-tls-certificates.md)** ................................. *97*
    *Handshake Process, PKI, Cipher Suites, and SSL Termination*
 
+**11. [Data Streams and Streaming Architectures](manuscript/data-streams.md)** .......................... *107*
+   *Event Time, State, Message Brokers, Lambda vs Kappa Architecture*
+
 ### Part 3: System Design Case Studies
-**11. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *108*
+**12. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *120*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**12. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *125*
+**13. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *132*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---

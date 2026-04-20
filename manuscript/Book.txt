@@ -9,5 +9,6 @@ session-vs-jwt-authentication.md
 reverse-proxy-load-balancer-api-gateway.md
 load-balancing.md
 ssl-tls-certificates.md
+data-streams.md
 url-shortner.md
 stock-trading-app.md
