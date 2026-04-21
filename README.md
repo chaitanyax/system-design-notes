@@ -46,11 +46,14 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **11. [Data Streams and Streaming Architectures](manuscript/data-streams.md)** .......................... *107*
    *Event Time, State, Message Brokers, Lambda vs Kappa Architecture*
 
+**12. [Consensus in Distributed Systems](manuscript/consensus-in-distributed-systems.md)** ................................. *115*
+   *Safety vs Liveness, Paxos, Raft, Quorum, and Split-Brain*
+
 ### Part 3: System Design Case Studies
-**12. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *120*
+**13. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *125*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**13. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *132*
+**14. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *140*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---
