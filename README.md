@@ -49,11 +49,14 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **12. [Consensus in Distributed Systems](manuscript/consensus-in-distributed-systems.md)** ................................. *115*
    *Safety vs Liveness, Paxos, Raft, Quorum, and Split-Brain*
 
+**13. [CI/CD Pipeline in Modern Software Engineering](manuscript/ci-cd-pipeline.md)** ........................... *125*
+   *Automation Tools, Deployment Strategies, DevSecOps, & GitOps Flow*
+
 ### Part 3: System Design Case Studies
-**13. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *125*
+**14. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *136*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**14. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *140*
+**15. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *150*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---

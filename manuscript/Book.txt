@@ -11,5 +11,6 @@ load-balancing.md
 ssl-tls-certificates.md
 data-streams.md
 consensus-in-distributed-systems.md
+ci-cd-pipeline.md
 url-shortner.md
 stock-trading-app.md
