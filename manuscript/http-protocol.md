@@ -70,3 +70,4 @@ HTTP/3 solves this by replacing TCP with **QUIC** (Quick UDP Internet Connection
 * **Use HTTP/2** for microservices and gRPC; the binary framing and multiplexing reduce internal latency significantly.
 * **Use HTTP/3** for user-facing mobile applications where network instability (switching from Wi-Fi to cellular) and packet loss are common.
 * **Always implement TLS 1.3** alongside these protocols to ensure the fastest possible secure handshake.
+

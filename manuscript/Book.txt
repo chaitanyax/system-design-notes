@@ -12,5 +12,6 @@ ssl-tls-certificates.md
 data-streams.md
 consensus-in-distributed-systems.md
 ci-cd-pipeline.md
+rest-grpc-graphql.md
 url-shortner.md
 stock-trading-app.md
