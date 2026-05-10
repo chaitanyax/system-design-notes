@@ -49,17 +49,20 @@ Welcome to the definitive guide on designing scalable, reliable, and high-perfor
 **12. [Consensus in Distributed Systems](manuscript/consensus-in-distributed-systems.md)** ................................. *115*
    *Safety vs Liveness, Paxos, Raft, Quorum, and Split-Brain*
 
-**13. [CI/CD Pipeline in Modern Software Engineering](manuscript/ci-cd-pipeline.md)** ........................... *125*
+**13. [Caching in Distributed Systems](manuscript/caching-in-distributed-systems.md)** ................................. *125*
+   *Read/Write Strategies, Eviction Policies, Redis Internals, Stampede*
+
+**14. [CI/CD Pipeline in Modern Software Engineering](manuscript/ci-cd-pipeline.md)** ........................... *135*
    *Automation Tools, Deployment Strategies, DevSecOps, & GitOps Flow*
 
-**14. [REST, gRPC, and GraphQL](manuscript/rest-grpc-graphql.md)** ........................... *135*
+**15. [REST, gRPC, and GraphQL](manuscript/rest-grpc-graphql.md)** ........................... *145*
    *Protocol Design, Internals, N+1 Query, Multiplexing, Trade-offs*
 
 ### Part 3: System Design Case Studies
-**15. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *145*
+**16. [URL Shortener System Design (Bitly)](manuscript/url-shortner.md)** .................................. *155*
    *High Read/Write Architectures, Base62 Encoding, Analytics Tracking*
 
-**16. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *160*
+**17. [Real-time Stock Broker Application](manuscript/stock-trading-app.md)** ........................................ *170*
    *Order Matching Engines, WebSockets, Circuit Breakers, Financial Scale*
 
 ---
